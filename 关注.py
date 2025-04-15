@@ -24,7 +24,8 @@ with open(file_path, "r") as f:
     config = json.load(f)
     token = config["x-privy-token"]
     authorization = config["authorization"]
-
+    if token is None or authorization is None:
+        exit("请检查x-privy-token和authorization字段")
 def get_id(address):
     response = requests.get(
         'https://backend.portal.abs.xyz/api/user/address/{}'.format(address),
