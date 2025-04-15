@@ -86,3 +86,5 @@ def main():
     for follow_id in followers:
         if not is_follow(follow_id):
             guanzhu(follow_id)
+if __name__ =="__main__":
+    main()
