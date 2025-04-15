@@ -1,10 +1,20 @@
-# Abstract脚本
+# Abstract 自动关注脚本
 
-Abstract自动回关关注列表未关注的id
+📌 一个用于Abstract平台的自动回关脚本，自动检测并关注未互关的用户。
 
-# 要求：
+---
 
-在config.json填写x-privy-token和authorization字段
+## 🚀 功能特性
+- ​**自动检测未关注用户**：从你的关注者列表中扫描未关注的账号
+- ​**一键自动回关**：对未关注的用户自动发起关注
+- ​**代理支持**：可通过配置文件添加代理（需自行实现）
 
+---
 
-# 关于x-privy-token和authorization如何获取
+## ⚙️ 环境准备
+
+### 依赖安装
+1. 确保已安装 Python 
+2. 安装依赖库：
+```bash
+pip install -r requirements.txt
