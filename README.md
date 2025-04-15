@@ -18,7 +18,7 @@
 2. 安装依赖库：
 ```bash
 pip install -r requirements.txt
-
+、、、
 ## x-privy-token与authorization字段抓取
 1.在abstract页面登录后打开控制台刷新一次页面
 2.填入筛选链接：https://backend.portal.abs.xyz/api/user/me
@@ -28,3 +28,4 @@ pip install -r requirements.txt
 ## 脚本启动
 、、、bash
 python main.py
+、、、
